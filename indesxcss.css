@@ -175,8 +175,91 @@ foot{
     background-image: url(pexels-samson-katt-5257603.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: 2;
   }
 
   .texto{
     text-align: right;
   }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  /* Animation for heading and paragraph */
+  .animate-text {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+  }
+
+  /* Animation for left column */
+  .animate-left {
+    opacity: 0;
+    animation: slideInFromLeft 1s ease forwards;
+  }
+
+  /* Animation for right column */
+  .animate-right {
+    opacity: 0;
+    animation: slideInFromRight 1s ease forwards;
+  }
+
+  /* Hover effect for images */
+  .ss {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .ss:hover {
+    transform: scale(1.1);
+  }
+
+  .slide-in {
+            transform: translateX(-100%);
+            animation: slideIn 1s forwards;
+        }
+
+        @keyframes slideIn {
+            to {
+                transform: translateX(0);
+            }
+        }
+        @keyframes slideInFromRight {
+            from {
+              opacity: 0;
+              transform: translateX(100%);
+            }
+            to {
+              opacity: 1;
+              transform: translateX(0);
+            }
+          }
+          
+          .slide-in-right {
+            opacity: 0;
+            animation: slideInFromRight 1s ease forwards;
+          }
+          
+
