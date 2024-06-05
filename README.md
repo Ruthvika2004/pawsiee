@@ -1,0 +1,1 @@
+Pawsiee is your one-stop destination for all things related to dog adoption and welfare. Our mission is to provide loving homes for stray dogs, offer rehabilitation for those in need, and create a community of dog lovers who share our passion for these wonderful animals.
