@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #f1c7dd;
+    background-image: linear-gradient(90deg,#bad3eda8,#e9c7eb,#bad3eda8);
     font-family: sans-serif;
     
 }
