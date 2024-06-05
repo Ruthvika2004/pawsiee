@@ -151,3 +151,32 @@ foot{
             font-size: 40px;
             
         }
+
+        /* styles.css */
+.counter {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  .container {
+    margin-top: 50px;
+    
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+
+  .ss{
+    width: 400px;
+    height: 350px;
+    background-image: url(pexels-samson-katt-5257603.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .texto{
+    text-align: right;
+  }
