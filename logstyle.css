@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1c7dd;
+    font-family: sans-serif;
+    
+}
+
+form{
+    border: 1px solid #f8dbf0;
+    border-radius: 20px;
+    background-color: rgba(247, 243, 247, 0.3);
+    height: 550px;
+    width: 24%;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.form-control{
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom-color: rgba(9, 9, 9, 0.3);
+    border-bottom: 1px solid rgba(9, 9, 9, 0.3);
+    border-radius: 0;
+}
+
+.form-label{
+    font-size: 20px;
+}
+
+
+.btn{
+    background-color: blue;
+    border-radius: 25px;
+    width: 90px;
+    
+}
