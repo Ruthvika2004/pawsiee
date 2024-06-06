@@ -413,3 +413,6 @@ foot{
           flex: 0 0 auto;
         }
         
+        .box:hover {
+          animation-play-state: paused;
+        }
