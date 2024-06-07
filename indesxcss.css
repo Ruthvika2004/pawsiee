@@ -412,7 +412,11 @@ p {
           min-width: 300px;
           flex: 0 0 auto;
         }
-        
+        .pay
+        {
+          text-decoration: none;
+          color: white;
+        }
         .donate-form {
           background-color: #fff;
           padding: 30px;
