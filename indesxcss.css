@@ -442,3 +442,21 @@ p {
           background-color:lavender;
           transform: translateY(-3px);
         }
+
+        @media (max-width: 576px) {
+          .custom-class {
+              font-size: 14px;
+          }
+      }
+      @media (min-width: 577px) and (max-width: 768px) {
+          .custom-class {
+              font-size: 16px;
+          }
+      }
+      @media (min-width: 769px) {
+          .custom-class {
+              font-size: 18px;
+          }
+      }
+      
+      
